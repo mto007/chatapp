@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef, useContext } from "react";
+import React, { useState, useEffect, useContext } from "react";
 import { Tabs, Tab, Form, Button } from "react-bootstrap";
 import "./ChatParent.scss";
 import Participants from "./Participants";
