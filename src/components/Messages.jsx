@@ -3,6 +3,7 @@ import "./Messages.scss";
 import { Form, Button, Modal, Table } from "react-bootstrap";
 import { emojify } from "react-emojione";
 import Linkify from "react-linkify";
+import Moment from "react-moment";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEdit, faTrash } from "@fortawesome/free-solid-svg-icons";
 import { ChatContext } from "./ChatContext";
@@ -24,7 +25,8 @@ export default function Messages({ messageList }) {
           <tbody>
             <tr key={message.Id}>
               <td>
-                <b>{message.Username}</b> {message.MessagDateTime.slice(11, 16)}
+                <b>{message.Username} </b>
+                <Moment format="HH:mm">{message.MessagDateTime}</Moment>
               </td>
             </tr>
             <tr key={index}>

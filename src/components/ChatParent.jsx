@@ -48,7 +48,6 @@ export default function ChatParent() {
     };
     addMessage(headMessage);
     currentChatContext && currentChatContext.setChatUser(user);
-
     setShow(false);
   };
 
