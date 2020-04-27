@@ -1,6 +1,20 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# React chat app
+
+## About
+
+- Uses native WebSocket
+- Functional components with hooks
+
+### Features
+
+- Join chat
+- Create, edit and delete chat message
+- Show Emojis and http links
+- List of active participants to show who is in the session right now
 
 ## Available Scripts
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 In the project directory, you can run:
 
