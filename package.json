@@ -18,7 +18,7 @@
     "react-emojione": "^5.0.1",
     "react-linkify": "^1.0.0-alpha",
     "react-moment": "^0.9.7",
-    "react-scripts": "3.4.1",
+    "react-scripts": "5.0.1",
     "uuid": "^7.0.3"
   },
   "scripts": {
